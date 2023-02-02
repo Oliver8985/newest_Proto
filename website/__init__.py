@@ -4,7 +4,7 @@ from os import path
 
 from website import models
 
-db = SQLAlchemy
+db = SQLAlchemy()
 DB_NAME = "database.db"
 
 
